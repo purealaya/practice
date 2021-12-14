@@ -1,0 +1,99 @@
+* {
+    box-sizing: border-box;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 0px;
+}
+
+p {
+    font-size: 14px;
+}
+
+.form__body {
+    width: 400px;
+    border: 1px solid darkslategray;
+    border-radius: 5px;
+    padding: 10px;
+    box-shadow: 0px 2px 2px 2px lightgray;
+}
+
+.name__div > p {
+    margin: 5px 5px 0px 5px;
+}
+
+.name__div > input {
+    margin: 5px;
+    padding: 2px;
+    width: calc(100% - 10px);
+}
+
+.email__div > p {
+    margin: 5px 5px 0px 5px;
+}
+
+.email__div > input {
+    margin: 5px;
+    padding: 2px;
+    width: calc(100% - 10px);
+}
+
+.telephone__div > p {
+    margin: 5px 5px 0px 5px;
+}
+
+.telephone__div > input {
+    margin: 5px;
+    padding: 2px;
+    width: calc(100% - 10px);
+}
+
+.seminar__div > p {
+    margin: 5px 5px 0px 5px;
+}
+
+.seminar__div > select {
+    margin: 5px;
+    padding: 3px 2px;
+    width: calc(100% - 10px);
+}
+
+.attendance__div > p {
+    margin: 5px 5px 0px 5px;
+}
+
+.attendance__div > input {
+    margin: 5px 5px 5px 5px;
+    padding: 2px 2px;
+    width: calc(100% - 10px);
+}
+
+.privacy__confirmation {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: 12px;
+}
+
+.privacy__confirmation > input{
+    margin: 5px;
+}
+
+.submit {
+    background-color: cornflowerblue;
+    color: white;
+    font-weight: 800;
+    border: 1px solid cornflowerblue;
+    border-radius: 5px;
+    padding: 5px 20px;
+    cursor: pointer;
+}
+
+.submit:hover {
+    background-color:white;
+    color: cornflowerblue;
+    border-color: cornflowerblue;
+}

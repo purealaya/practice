@@ -1,0 +1,37 @@
+{
+  "name": "back-end",
+  "version": "1.0.0",
+  "description": "practice for communication between axios and back-end",
+  "main": "service.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "express-async-errors": "^3.1.1",
+    "express-rate-limit": "^5.3.0",
+    "helmet": "^4.6.0",
+    "http-status-codes": "^2.1.4",
+    "joi": "^17.4.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.13.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/desmondhsiao/axios-communication.git"
+  },
+  "keywords": [
+    "axios",
+    "nodejs"
+  ],
+  "author": "desmond hsiao",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/desmondhsiao/axios-communication/issues"
+  },
+  "homepage": "https://github.com/desmondhsiao/axios-communication#readme"
+}
